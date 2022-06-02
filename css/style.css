@@ -10,11 +10,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body h1 {
+body .logo {
   font-family: 'Shrikhand', cursive;
+  font-size: 24px;
 }
 
-h1 {
-  color: #9356DC;
+* {
+  color: #000;
+}
+
+.formulaire_de_recherche {
+  border-top-color: #333333;
+  background-color: gray;
+}
+
+.button {
+  background-color: linear-gradient(#9356DC, #FF79DA);
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

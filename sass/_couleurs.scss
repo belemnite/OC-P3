@@ -5,7 +5,12 @@ $noir: #000;
 *{
     color: $noir;
 }
+.formulaire_de_recherche{
+    border-top-color: lighten($color: #000000, $amount: 20%);
+    background-color: lighten($color: #000000, $amount: 50%);
+}
+
 .button{
-    background: linear-gradient($primaire, $secondaire);
+    background-color: linear-gradient($primaire, $secondaire);
     color: adjust-hue($color: #000000, $degrees: 180);
 }
