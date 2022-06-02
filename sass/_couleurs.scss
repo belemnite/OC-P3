@@ -1,7 +1,11 @@
 $primaire:#9356DC;
 $secondaire:#FF79DA;
 $tertiaire:#99E2D0;
-
-h1{
-    color: $primaire;
+$noir: #000;
+*{
+    color: $noir;
+}
+.button{
+    background: linear-gradient($primaire, $secondaire);
+    color: adjust-hue($color: #000000, $degrees: 180);
 }
