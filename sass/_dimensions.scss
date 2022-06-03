@@ -29,8 +29,11 @@ body{
         text-align: center;
         padding: 20px;
         h2{
-            font-size: 20px;
+            width: 100%;
+            font-size: 24px;
             padding: 20px;
+            margin: 0px;
+            font-weight: bold;
         }
         p{
             margin-bottom: 32px;
@@ -47,8 +50,9 @@ body{
 
     .fonctionnement{
         height: 444px;
+        padding-left: 20px;
         h2{
-            border:50px 0px 30px 20px;
+            padding-top: 50px;
         }
         ol li{
             width:330px;
@@ -58,17 +62,24 @@ body{
             align-items: center;
         }
     }
-    &.cards{
-        width: 336px;
-        height: 254px;
-        border-radius: 10px;
-        &.card-image{
+    .restaurants{
+        width: 100%;
+        h2{
+            padding-top: 55px;
+            padding-bottom: 24px;
+        }
+        .cards{
+            width: 336px;
+            height: 254px;
+            border-radius: 10px;
+            .card-image{
             height: 174px;
             object-fit: contain;
             overflow: clip;
-        }
-        &.card-body{
+            }
+            .card-body{
             height:80px;
+            }
         }
     }
     footer{

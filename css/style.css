@@ -62,11 +62,11 @@ body .fonctionnement ol li {
   list-style: circle 12px #9356DC;
 }
 
-body.restaurants {
-  background-color: grey;
+body .restaurants {
+  background-color: #cccccc;
 }
 
-body.restaurants.card span {
+body .restaurants .card span {
   color: #99E2D0;
   background: #e8f9f5;
 }
@@ -146,8 +146,11 @@ body .reservation {
 }
 
 body .reservation h2 {
-  font-size: 20px;
+  width: 100%;
+  font-size: 24px;
   padding: 20px;
+  margin: 0px;
+  font-weight: bold;
 }
 
 body .reservation p {
@@ -168,10 +171,11 @@ body .reservation .bouton {
 
 body .fonctionnement {
   height: 444px;
+  padding-left: 20px;
 }
 
 body .fonctionnement h2 {
-  border: 50px 0px 30px 20px;
+  padding-top: 50px;
 }
 
 body .fonctionnement ol li {
@@ -184,20 +188,29 @@ body .fonctionnement ol li {
           align-items: center;
 }
 
-body.cards {
+body .restaurants {
+  width: 100%;
+}
+
+body .restaurants h2 {
+  padding-top: 55px;
+  padding-bottom: 24px;
+}
+
+body .restaurants .cards {
   width: 336px;
   height: 254px;
   border-radius: 10px;
 }
 
-body.cards.card-image {
+body .restaurants .cards .card-image {
   height: 174px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: clip;
 }
 
-body.cards.card-body {
+body .restaurants .cards .card-body {
   height: 80px;
 }
 

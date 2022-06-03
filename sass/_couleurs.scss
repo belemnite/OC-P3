@@ -29,9 +29,9 @@ body{
 
         }
     }
-    &.restaurants{
-        background-color: grey;
-        &.card span{
+    .restaurants{
+        background-color: lighten($color: #000000, $amount: 80%);
+        .card span{
             color:$tertiaire;
             background: lighten($tertiaire, $amount: 20%);
         }
