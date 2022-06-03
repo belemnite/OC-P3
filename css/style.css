@@ -24,8 +24,59 @@ body .logo {
   background-color: gray;
 }
 
-.button {
+.bouton {
   background-color: linear-gradient(#9356DC, #FF79DA);
   color: black;
+}
+
+body {
+  width: 100%;
+}
+
+body header {
+  height: 64px;
+}
+
+body .formulaire_de_recherche {
+  height: 50px;
+}
+
+body .reservation {
+  height: 288px;
+}
+
+body .reservation .bouton {
+  width: 216px;
+  height: 50px;
+  border-radius: 18px;
+  -webkit-box-shadow: 10px;
+          box-shadow: 10px;
+}
+
+body .fonctionnement {
+  height: 444px;
+}
+
+body .fonctionnement ol li {
+  width: 330px;
+  height: 74px;
+}
+
+body .cards {
+  width: 336px;
+  height: 254px;
+}
+
+body .cards .card-image {
+  height: 174px;
+  overflow: clip;
+}
+
+body .cards .card-body {
+  height: 80px;
+}
+
+body footer {
+  height: 240px;
 }
 /*# sourceMappingURL=style.css.map */

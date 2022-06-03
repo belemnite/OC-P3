@@ -10,7 +10,7 @@ $noir: #000;
     background-color: lighten($color: $noir, $amount: 50%);
 }
 
-.button{
+.bouton{
     background-color: linear-gradient($primaire, $secondaire);
     color: adjust-hue($color: $noir, $degrees: 180);
 }
