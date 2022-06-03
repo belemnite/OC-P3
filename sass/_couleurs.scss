@@ -15,7 +15,7 @@ body{
         }
     }
     .reservation{
-        background-color: lighten($color: $noir, $amount: 90%);
+        background-color: lighten($color: $noir, $amount: 95%);
     }
     .bouton{
         background: linear-gradient($secondaire, $primaire);
@@ -24,13 +24,28 @@ body{
     .fonctionnement{
         background-color: lighten($color: #000000, $amount: 100%);
         ol li{
-            background-color: lightgrey;
+            background-color: lighten($color: #000000, $amount: 95%);
             list-style: circle 12px $primaire;
+            transition: all 0.2s ease-in-out;
+            .nombre{
+                background-color: $primaire;
+                color: white;
+                
+            }
+            i{
+                color:rgb(126, 126, 126);
+            }
+            &:hover{
+                background-color: rgb(245, 237, 255);
+                i{
+                    color: $primaire;
 
+                }
+            }
         }
     }
     .restaurants{
-        background-color: lighten($color: #000000, $amount: 80%);
+        background-color: lighten($color: #000000, $amount: 95%);
         .card span{
             color:$tertiaire;
             background: lighten($tertiaire, $amount: 20%);

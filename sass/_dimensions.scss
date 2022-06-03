@@ -55,15 +55,34 @@ body{
             padding-top: 50px;
         }
         ol li{
+            display: flex;
             width:330px;
             height:74px;
             border-radius: 10px;
             margin:20px;
             align-items: center;
+            .nombre{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                margin-left: -11px;
+                
+            }
+            i{
+                margin-inline: 25px;
+            }
+            h3{
+                font-size:90%;
+                font-weight: 600;
+            }
         }
     }
     .restaurants{
         width: 100%;
+        padding-left:20px;
         h2{
             padding-top: 55px;
             padding-bottom: 24px;
