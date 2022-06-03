@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     header{
         height: 64px;
@@ -18,14 +21,20 @@ body{
 
     .fonctionnement{
         height: 444px;
+        h2{
+            border:50px 0px 30px 20px;
+        }
         ol li{
             width:330px;
             height:74px;
+            border-radius: 10px;
+            align-content: center;
         }
     }
     .cards{
         width: 336px;
         height: 254px;
+        border-radius: 10px;
         .card-image{
             height: 174px;
             overflow: clip;

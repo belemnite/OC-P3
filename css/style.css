@@ -19,17 +19,44 @@ body .logo {
   color: #000;
 }
 
-.formulaire_de_recherche {
+body .formulaire_de_recherche {
   border-top-color: #333333;
   background-color: gray;
 }
 
-.bouton {
+body .bouton {
   background-color: linear-gradient(#9356DC, #FF79DA);
   color: black;
 }
 
+body .fonctionnement {
+  background-color: white;
+}
+
+body .fonctionnement ol li {
+  background-color: grey;
+}
+
+body .restaurants {
+  background-color: grey;
+}
+
+body .restaurants .cacher {
+  color: #99E2D0;
+  background-color: #e8f9f5;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 
@@ -57,14 +84,22 @@ body .fonctionnement {
   height: 444px;
 }
 
+body .fonctionnement h2 {
+  border: 50px 0px 30px 20px;
+}
+
 body .fonctionnement ol li {
   width: 330px;
   height: 74px;
+  border-radius: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 body .cards {
   width: 336px;
   height: 254px;
+  border-radius: 10px;
 }
 
 body .cards .card-image {

@@ -5,12 +5,27 @@ $noir: #000;
 *{
     color: $noir;
 }
-.formulaire_de_recherche{
-    border-top-color: lighten($color: $noir, $amount: 20%);
-    background-color: lighten($color: $noir, $amount: 50%);
-}
-
-.bouton{
-    background-color: linear-gradient($primaire, $secondaire);
-    color: adjust-hue($color: $noir, $degrees: 180);
+body{
+    .formulaire_de_recherche{
+        border-top-color: lighten($color: $noir, $amount: 20%);
+        background-color: lighten($color: $noir, $amount: 50%);
+    }
+    
+    .bouton{
+        background-color: linear-gradient($primaire, $secondaire);
+        color: adjust-hue($noir, $degrees: 180);
+    }
+    .fonctionnement{
+        background-color: white;
+        ol li{
+            background-color: grey;
+        }
+    }
+    .restaurants{
+        background-color: grey;
+        .cacher{
+            color:$tertiaire;
+            background-color: lighten($tertiaire, $amount: 20%);
+        }
+    }
 }
