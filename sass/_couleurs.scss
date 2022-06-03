@@ -6,30 +6,32 @@ $noir: #000;
     color: $noir;
 }
 body{
-    .formulaire_de_recherche{
-        border-top-color: lighten($color: $noir, $amount: 20%);
-        background-color: lighten($color: $noir, $amount: 50%);
-        .input{
-            background-color: gray;
+    .recherche{
+        border-top-color: lighten($color: $noir, $amount: 50%);
+        background-color: lighten($color: $noir, $amount: 80%);
+        ::placeholder{
+            background-color: lighten($color: #000000, $amount: 80%);
             border-color: none;
         }
     }
-    
+    .reservation{
+        background-color: lighten($color: $noir, $amount: 90%);
+    }
     .bouton{
         background: linear-gradient($secondaire, $primaire);
-        color: white;
+        color: lighten($color: #000000, $amount: 100%);
     }
     .fonctionnement{
-        background-color: white;
+        background-color: lighten($color: #000000, $amount: 100%);
         ol li{
-            background-color: grey;
+            background-color: lightgrey;
             list-style: circle 12px $primaire;
 
         }
     }
-    .restaurants{
+    &.restaurants{
         background-color: grey;
-        .card span{
+        &.card span{
             color:$tertiaire;
             background: lighten($tertiaire, $amount: 20%);
         }
