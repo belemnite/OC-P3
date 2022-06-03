@@ -46,6 +46,11 @@ body .restaurants .cacher {
   background-color: #e8f9f5;
 }
 
+body .footer {
+  background-color: grey;
+  color: white;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;

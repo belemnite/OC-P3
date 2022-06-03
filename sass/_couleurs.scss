@@ -28,4 +28,8 @@ body{
             background-color: lighten($tertiaire, $amount: 20%);
         }
     }
+    .footer{
+        background-color: grey;
+        color: white;
+    }
 }
