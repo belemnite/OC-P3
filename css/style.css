@@ -24,9 +24,15 @@ body .formulaire_de_recherche {
   background-color: gray;
 }
 
+body .formulaire_de_recherche .input {
+  background-color: gray;
+  border-color: none;
+}
+
 body .bouton {
-  background-color: linear-gradient(#9356DC, #FF79DA);
-  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
 }
 
 body .fonctionnement {
@@ -35,15 +41,16 @@ body .fonctionnement {
 
 body .fonctionnement ol li {
   background-color: grey;
+  list-style: circle 12px #9356DC;
 }
 
 body .restaurants {
   background-color: grey;
 }
 
-body .restaurants .cacher {
+body .restaurants .card span {
   color: #99E2D0;
-  background-color: #e8f9f5;
+  background: #e8f9f5;
 }
 
 body .footer {
@@ -97,6 +104,7 @@ body .fonctionnement ol li {
   width: 330px;
   height: 74px;
   border-radius: 10px;
+  margin: 20px;
   -ms-flex-line-pack: center;
       align-content: center;
 }

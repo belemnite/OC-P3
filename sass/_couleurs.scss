@@ -9,23 +9,29 @@ body{
     .formulaire_de_recherche{
         border-top-color: lighten($color: $noir, $amount: 20%);
         background-color: lighten($color: $noir, $amount: 50%);
+        .input{
+            background-color: gray;
+            border-color: none;
+        }
     }
     
     .bouton{
-        background-color: linear-gradient($primaire, $secondaire);
-        color: adjust-hue($noir, $degrees: 180);
+        background: linear-gradient($secondaire, $primaire);
+        color: white;
     }
     .fonctionnement{
         background-color: white;
         ol li{
             background-color: grey;
+            list-style: circle 12px $primaire;
+
         }
     }
     .restaurants{
         background-color: grey;
-        .cacher{
+        .card span{
             color:$tertiaire;
-            background-color: lighten($tertiaire, $amount: 20%);
+            background: lighten($tertiaire, $amount: 20%);
         }
     }
     .footer{
