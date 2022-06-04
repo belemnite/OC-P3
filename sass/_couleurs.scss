@@ -52,8 +52,14 @@ body{
             background: lighten($tertiaire, $amount: 20%);
         }
     }
-    .footer{
-        background-color: grey;
-        color: white;
+    footer{
+        background-color:rgb(53,53,53);
+        .logo, ul li, i{
+            color: white;
+        }
+        
+        ul li{
+            list-style: none;
+        }
     }
 }
