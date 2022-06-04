@@ -45,9 +45,10 @@ body{
         }
     }
     .restaurants{
-        background-color: lighten($color: #000000, $amount: 95%);
+        background: lighten($color: $noir, $amount: 95%);
         .card span{
-            color:$tertiaire;
+            color: darken($tertiaire,$amount: 20%);
+            text-decoration: none;
             background: lighten($tertiaire, $amount: 20%);
         }
     }

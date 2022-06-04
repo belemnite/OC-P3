@@ -82,11 +82,12 @@ body .fonctionnement ol li:hover i {
 }
 
 body .restaurants {
-  background-color: #f2f2f2;
+  background: #f2f2f2;
 }
 
 body .restaurants .card span {
-  color: #99E2D0;
+  color: #4acbab;
+  text-decoration: none;
   background: #e8f9f5;
 }
 
@@ -243,6 +244,24 @@ body .restaurants {
 body .restaurants h2 {
   padding-top: 55px;
   padding-bottom: 24px;
+}
+
+body .restaurants span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  height: 30px;
+  padding: 12px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 body .restaurants .cards {

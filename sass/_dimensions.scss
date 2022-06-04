@@ -87,6 +87,17 @@ body{
             padding-top: 55px;
             padding-bottom: 24px;
         }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 30px;
+            padding: 12px;
+            border-radius: 2px;
+            font-size: 12px;
+            font-weight: 900;
+        }
         .cards{
             width: 336px;
             height: 254px;
