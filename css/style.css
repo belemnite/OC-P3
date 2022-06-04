@@ -23,24 +23,29 @@ body .recherche {
   background-color: #cccccc;
 }
 
-body .recherche ::-webkit-input-placeholder {
+body .recherche input {
   background-color: #cccccc;
   border-color: none;
 }
 
-body .recherche :-ms-input-placeholder {
-  background-color: #cccccc;
-  border-color: none;
+body .recherche input ::-webkit-input-placeholder {
+  color: #000;
 }
 
-body .recherche ::-ms-input-placeholder {
-  background-color: #cccccc;
-  border-color: none;
+body .recherche input :-ms-input-placeholder {
+  color: #000;
 }
 
-body .recherche ::placeholder {
-  background-color: #cccccc;
-  border-color: none;
+body .recherche input ::-ms-input-placeholder {
+  color: #000;
+}
+
+body .recherche input ::placeholder {
+  color: #000;
+}
+
+body .recherche input :active {
+  border-style: none;
 }
 
 body .reservation {
@@ -129,11 +134,9 @@ body header h1 {
 }
 
 body .recherche {
-  width: 100%;
-  height: 50px;
-}
-
-body .recherche .formulaire_de_recherche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -142,22 +145,12 @@ body .recherche .formulaire_de_recherche {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: 50px;
 }
 
-body .recherche ::-webkit-input-placeholder {
-  font-size: 14px;
-}
-
-body .recherche :-ms-input-placeholder {
-  font-size: 14px;
-}
-
-body .recherche ::-ms-input-placeholder {
-  font-size: 14px;
-}
-
-body .recherche ::placeholder {
-  font-size: 14px;
+body .recherche input {
+  font-size: 12px;
 }
 
 body .reservation {

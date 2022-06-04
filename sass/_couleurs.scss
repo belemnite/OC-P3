@@ -9,9 +9,16 @@ body{
     .recherche{
         border-top-color: lighten($color: $noir, $amount: 50%);
         background-color: lighten($color: $noir, $amount: 80%);
-        ::placeholder{
+        input{
             background-color: lighten($color: #000000, $amount: 80%);
             border-color: none;
+            ::placeholder{
+                color: $noir;
+            }
+            :active{
+                border-style: none;
+            }
+            
         }
     }
     .reservation{
