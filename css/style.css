@@ -25,7 +25,7 @@ body .recherche {
 
 body .recherche input {
   background-color: #cccccc;
-  border-color: none;
+  border-style: none;
 }
 
 body .recherche input ::-webkit-input-placeholder {
@@ -52,59 +52,62 @@ body .reservation {
   background-color: #f2f2f2;
 }
 
-body .bouton {
+body .reservation button {
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
+  border-style: none;
+  -webkit-box-shadow: #d0d0d0;
+          box-shadow: #d0d0d0;
 }
 
-body .fonctionnement {
+body .reservation .fonctionnement {
   background-color: white;
 }
 
-body .fonctionnement ol li {
+body .reservation .fonctionnement ol li {
   background-color: #f2f2f2;
   list-style: circle 12px #9356DC;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-body .fonctionnement ol li .nombre {
+body .reservation .fonctionnement ol li .nombre {
   background-color: #9356DC;
   color: white;
 }
 
-body .fonctionnement ol li i {
+body .reservation .fonctionnement ol li i {
   color: #7e7e7e;
 }
 
-body .fonctionnement ol li:hover {
+body .reservation .fonctionnement ol li:hover {
   background-color: #f5edff;
 }
 
-body .fonctionnement ol li:hover i {
+body .reservation .fonctionnement ol li:hover i {
   color: #9356DC;
 }
 
-body .restaurants {
+body .reservation .restaurants {
   background: #f2f2f2;
 }
 
-body .restaurants .card span {
+body .reservation .restaurants .card span {
   color: #4acbab;
   text-decoration: none;
   background: #e8f9f5;
 }
 
-body footer {
+body .reservation footer {
   background-color: #353535;
 }
 
-body footer .logo, body footer ul li, body footer i {
+body .reservation footer .logo, body .reservation footer ul li, body .reservation footer i {
   color: white;
 }
 
-body footer ul li {
+body .reservation footer ul li {
   list-style: none;
 }
 
@@ -153,6 +156,22 @@ body .recherche input {
   font-size: 12px;
 }
 
+body .recherche input ::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+body .recherche input :-ms-input-placeholder {
+  font-weight: bold;
+}
+
+body .recherche input ::-ms-input-placeholder {
+  font-weight: bold;
+}
+
+body .recherche input ::placeholder {
+  font-weight: bold;
+}
+
 body .reservation {
   height: 288px;
   -webkit-box-pack: center;
@@ -184,9 +203,18 @@ body .reservation .bouton {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 18px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
   -webkit-box-shadow: 10px;
           box-shadow: 10px;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body .fonctionnement {
