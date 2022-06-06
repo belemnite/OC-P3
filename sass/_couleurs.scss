@@ -56,11 +56,17 @@ body{
     
     .restaurants{
         background: lighten($color: $noir, $amount: 95%);
-        .card span{
+        .card{
+            span{
+            z-index: 2;
             color: darken($tertiaire,$amount: 20%);
             text-decoration: none;
             background: lighten($tertiaire, $amount: 20%);
-        }
+            }
+            i:hover{
+                color: linear-gradient($secondaire, $primaire);
+            }
+        } 
     }
     footer{
         background-color:rgb(53,53,53);

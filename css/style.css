@@ -94,9 +94,14 @@ body .restaurants {
 }
 
 body .restaurants .card span {
+  z-index: 2;
   color: #4acbab;
   text-decoration: none;
   background: #e8f9f5;
+}
+
+body .restaurants .card i:hover {
+  color: linear-gradient(#FF79DA, #9356DC);
 }
 
 body footer {
@@ -318,6 +323,10 @@ body .restaurants .card .card-image img {
 body .restaurants .card .card-body {
   position: relative;
   height: 80px;
+}
+
+body .restaurants .card .card-body i {
+  font-size: 20px;
 }
 
 body footer {
