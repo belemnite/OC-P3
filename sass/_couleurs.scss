@@ -21,7 +21,6 @@ body{
             
         }
     }
-
     .reservation{
         background-color: lighten($color: $noir, $amount: 95%);
         button{
@@ -31,7 +30,7 @@ body{
             box-shadow: rgb(208, 208, 208);
             
         }
-
+    }
     .fonctionnement{
         background-color: lighten($color: $noir, $amount: 100%);
         ol li{
@@ -54,7 +53,7 @@ body{
             }
         }
     }
-
+    
     .restaurants{
         background: lighten($color: $noir, $amount: 95%);
         .card span{
@@ -73,5 +72,4 @@ body{
             list-style: none;
         }
     }
-}
 }

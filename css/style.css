@@ -61,53 +61,53 @@ body .reservation button {
           box-shadow: #d0d0d0;
 }
 
-body .reservation .fonctionnement {
+body .fonctionnement {
   background-color: white;
 }
 
-body .reservation .fonctionnement ol li {
+body .fonctionnement ol li {
   background-color: #f2f2f2;
   list-style: circle 12px #9356DC;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-body .reservation .fonctionnement ol li .nombre {
+body .fonctionnement ol li .nombre {
   background-color: #9356DC;
   color: white;
 }
 
-body .reservation .fonctionnement ol li i {
+body .fonctionnement ol li i {
   color: #7e7e7e;
 }
 
-body .reservation .fonctionnement ol li:hover {
+body .fonctionnement ol li:hover {
   background-color: #f5edff;
 }
 
-body .reservation .fonctionnement ol li:hover i {
+body .fonctionnement ol li:hover i {
   color: #9356DC;
 }
 
-body .reservation .restaurants {
+body .restaurants {
   background: #f2f2f2;
 }
 
-body .reservation .restaurants .card span {
+body .restaurants .card span {
   color: #4acbab;
   text-decoration: none;
   background: #e8f9f5;
 }
 
-body .reservation footer {
+body footer {
   background-color: #353535;
 }
 
-body .reservation footer .logo, body .reservation footer ul li, body .reservation footer i {
+body footer .logo, body footer ul li, body footer i {
   color: white;
 }
 
-body .reservation footer ul li {
+body footer ul li {
   list-style: none;
 }
 
