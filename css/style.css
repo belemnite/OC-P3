@@ -139,19 +139,30 @@ body {
 
 body header {
   height: 64px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
-body header h1 {
+body header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .navigation h1 {
   font-size: 24px;
 }
 
-body header a {
+body header .navigation .retour {
   -ms-flex-item-align: start;
       align-self: flex-start;
+}
+
+body header .navigation .logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body .recherche {

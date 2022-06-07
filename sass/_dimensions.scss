@@ -6,13 +6,20 @@ body{
     width: 100%;
     header{
         height: 64px;
-        flex-direction: row;
-        h1{
-            font-size: 24px;
+        .navigation{
+            display:flex;
+            justify-content: space-between;
+            h1{
+                font-size: 24px;
+            }
+            .retour{
+                align-self: flex-start;
+            }
+            .logo{
+                align-self: center;
+            }
         }
-        a{
-            align-self: flex-start;
-        }
+        
     }
     .recherche{
         display: flex;
