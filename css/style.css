@@ -329,6 +329,13 @@ body .restaurants .card .card-body i {
   font-size: 20px;
 }
 
+body .services {
+  font-variant: small-caps;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 body footer {
   width: 100%;
   height: 240px;
