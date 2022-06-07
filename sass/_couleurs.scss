@@ -68,11 +68,20 @@ body{
             }
         } 
     }
-    .menus{
-        background-color: white;
+    .menu{
+        background-color: rgb(246,246,246);
+        .services{
+            border-color: $tertiaire;
+            .options{
+                background-color: white
+            }
+        }
     }
-    .services{
-        border-color: $tertiaire;
+    .menu button{
+        background: linear-gradient($secondaire, $primaire);
+        color: lighten($color: $noir, $amount: 100%);
+        border-style: none;
+        box-shadow: rgb(208, 208, 208);
     }
     footer{
         background-color:rgb(53,53,53);

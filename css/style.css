@@ -104,12 +104,25 @@ body .restaurants .card i:hover {
   color: linear-gradient(#FF79DA, #9356DC);
 }
 
-body .menus {
+body .menu {
+  background-color: #f6f6f6;
+}
+
+body .menu .services {
+  border-color: #99E2D0;
+}
+
+body .menu .services .options {
   background-color: white;
 }
 
-body .services {
-  border-color: #99E2D0;
+body .menu button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  border-style: none;
+  -webkit-box-shadow: #d0d0d0;
+          box-shadow: #d0d0d0;
 }
 
 body footer {
@@ -369,6 +382,7 @@ body .menu {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  width: 100%;
   border-radius: 10px 0px 10px 0px;
   overflow: visible;
 }
@@ -376,6 +390,22 @@ body .menu {
 body .menu .services {
   font-variant: small-caps;
   font-size: 16px;
+  width: 90%;
+}
+
+body .menu .services .options {
+  height: 70px;
+  border-radius: 10px;
+}
+
+body .menu .services .options p {
+  font-size: 10px;
+}
+
+body .menu .services .button {
+  width: 188px;
+  height: 50px;
+  border-radius: 25px;
 }
 
 body footer {
