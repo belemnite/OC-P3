@@ -104,6 +104,10 @@ body .restaurants .card i:hover {
   color: linear-gradient(#FF79DA, #9356DC);
 }
 
+body .menus {
+  background-color: white;
+}
+
 body .services {
   border-color: #99E2D0;
 }
@@ -152,17 +156,14 @@ body header .navigation {
 
 body header .navigation h1 {
   font-size: 24px;
-}
-
-body header .navigation .retour {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-}
-
-body header .navigation .logo {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+body header .navigation nav {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 body .recherche {
@@ -353,16 +354,26 @@ body .restaurants .card .card-body i {
   font-size: 20px;
 }
 
-body main {
+body .photo {
+  height: 256px;
+}
+
+body .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  border-radius: 10px 0px 10px 0px;
+  overflow: visible;
 }
 
-body main .services {
+body .menu .services {
   font-variant: small-caps;
   font-size: 16px;
 }
