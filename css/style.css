@@ -121,6 +121,14 @@ body .menu .options {
   background-color: white;
 }
 
+body .menu .options .coche i {
+  display: none;
+}
+
+body .menu .options .coche i:hover {
+  color: #99E2D0;
+}
+
 body .menu button {
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(#FF79DA, #9356DC);
@@ -471,6 +479,7 @@ body footer .logo ul {
 }
 
 body footer .logo ul i {
+  width: 15px;
   padding-right: 10px;
 }
 
