@@ -109,7 +109,7 @@ body .menu {
 }
 
 body .menu .services {
-  border-color: #99E2D0;
+  border-style: solid #99E2D0;
 }
 
 body .menu .services .options {
@@ -384,13 +384,30 @@ body .menu {
           justify-content: flex-start;
   width: 100%;
   border-radius: 10px 0px 10px 0px;
+  padding: 40px 14px;
   overflow: visible;
+}
+
+body .menu .nom_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .menu .services {
   font-variant: small-caps;
   font-size: 16px;
   width: 90%;
+  height: 24px;
+  padding-bottom: 14px;
+  border-width: 3px;
 }
 
 body .menu .services .options {
@@ -398,14 +415,22 @@ body .menu .services .options {
   border-radius: 10px;
 }
 
-body .menu .services .options p {
-  font-size: 10px;
+body .menu .services .optionsh4 {
+  font-size: 14px;
 }
 
-body .menu .services .button {
+body .menu .services .optionsp {
+  font-size: 10px;
+  padding-bottom: 8px;
+}
+
+body .menu .bouton {
   width: 188px;
   height: 50px;
   border-radius: 25px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body footer {
@@ -422,17 +447,17 @@ body footer .logo {
   padding: 24px 0px 28px;
 }
 
-body footer ul {
+body footer .logo ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-body footer ul i {
+body footer .logo ul i {
   padding-right: 10px;
 }
 
-body footer ul li {
+body footer .logo ul li {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;

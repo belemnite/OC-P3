@@ -71,9 +71,9 @@ body{
     .menu{
         background-color: rgb(246,246,246);
         .services{
-            border-color: $tertiaire;
+            border-style: solid $tertiaire;
             .options{
-                background-color: white
+                background-color: white;
             }
         }
     }

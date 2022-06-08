@@ -151,24 +151,37 @@ body{
         justify-content: flex-start;
         width: 100%;
         border-radius: 10px 0px 10px 0px;
+        padding: 40px 14px;
         overflow: visible;
+        .nom_menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
         .services{
             font-variant: small-caps;
             font-size: 16px;
             width: 90%;
+            height: 24px;
+            padding-bottom: 14px;
+            border-width: 3px;
             .options{
-                
-                height: 70px;
-                border-radius: 10px;
-                p{
+            height: 70px;
+            border-radius: 10px;
+                &h4{
+                    font-size: 14px;
+                }
+                &p{
                     font-size: 10px;
+                    padding-bottom: 8px;
                 }
             }
-            .button{
-                width: 188px;
-                height: 50px;
-                border-radius: 25px;
-            }
+        }
+        .bouton{
+            width: 188px;
+            height: 50px;
+            border-radius: 25px;
+            align-self: center;
         }
     }
     footer{
@@ -178,22 +191,18 @@ body{
         padding-left: 20px;
         font-size: 12px;
         .logo{
-        
-        padding: 24px 0px 28px;
-        }
-        ul {
-            justify-content: flex-start;
-            i{
-                padding-right: 10px;
-            }
-            li{
+            padding: 24px 0px 28px;
+                ul {
                 justify-content: flex-start;
-                margin-bottom: 16px;
+                    i{
+                        padding-right: 10px;
+                    }
+                    li{
+                        justify-content: flex-start;
+                        margin-bottom: 16px;
+                    }
+                }
             }
-        }
-        
     }
-
-
 }
 
