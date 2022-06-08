@@ -14,8 +14,8 @@ body{
             align-self: center;
                 
             }
-            nav{
-                align-self: flex-start;
+            i{
+                align-content: flex-start;
             }
 
         }
@@ -150,21 +150,28 @@ body{
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
-        border-radius: 10px 0px 10px 0px;
-        padding: 40px 14px;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+        padding: 32px;
         overflow: visible;
         .nom_menu{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            i{
+                font-size: 20px;
+                align-self: center;
+            }
         }
         .services{
             font-variant: small-caps;
             font-size: 16px;
             width: 90%;
-            height: 24px;
             padding-bottom: 14px;
-            border-width: 3px;
+            h3{
+                width: 72px;
+                border-bottom-width: 3px;
+            }
             .options{
             height: 70px;
             border-radius: 10px;

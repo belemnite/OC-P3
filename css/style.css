@@ -108,8 +108,8 @@ body .menu {
   background-color: #f6f6f6;
 }
 
-body .menu .services {
-  border-style: solid #99E2D0;
+body .menu .services h3 {
+  border-bottom: solid #99E2D0;
 }
 
 body .menu .services .options {
@@ -174,9 +174,9 @@ body header .navigation h1 {
       align-self: center;
 }
 
-body header .navigation nav {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+body header .navigation i {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
 body .recherche {
@@ -383,8 +383,9 @@ body .menu {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  border-radius: 10px 0px 10px 0px;
-  padding: 40px 14px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 32px;
   overflow: visible;
 }
 
@@ -401,13 +402,23 @@ body .menu .nom_menu {
           justify-content: space-between;
 }
 
+body .menu .nom_menu i {
+  font-size: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 body .menu .services {
   font-variant: small-caps;
   font-size: 16px;
   width: 90%;
-  height: 24px;
   padding-bottom: 14px;
-  border-width: 3px;
+}
+
+body .menu .services h3 {
+  width: 72px;
+  border-bottom-width: 3px;
 }
 
 body .menu .services .options {
