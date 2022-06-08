@@ -71,14 +71,16 @@ body{
     .menu{
         background-color: rgb(246,246,246);
         .services{
+            list-style: none;
             h3{
             border-bottom: solid $tertiaire;
             }
-            
-            .options{
+        }   
+        .options{
+                list-style: none;
                 background-color: white;
             }
-        }
+        
     }
     .menu button{
         background: linear-gradient($secondaire, $primaire);

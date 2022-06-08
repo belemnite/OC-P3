@@ -108,11 +108,16 @@ body .menu {
   background-color: #f6f6f6;
 }
 
+body .menu .services {
+  list-style: none;
+}
+
 body .menu .services h3 {
   border-bottom: solid #99E2D0;
 }
 
-body .menu .services .options {
+body .menu .options {
+  list-style: none;
   background-color: white;
 }
 
@@ -413,12 +418,13 @@ body .menu .services {
   font-variant: small-caps;
   font-size: 16px;
   width: 90%;
-  padding-bottom: 14px;
+  padding-bottom: 8px;
 }
 
 body .menu .services h3 {
-  width: 72px;
+  width: 36px;
   border-bottom-width: 3px;
+  padding-bottom: 6px;
 }
 
 body .menu .services .options {
@@ -426,11 +432,11 @@ body .menu .services .options {
   border-radius: 10px;
 }
 
-body .menu .services .optionsh4 {
+body .menu .services .options h4 {
   font-size: 14px;
 }
 
-body .menu .services .optionsp {
+body .menu .services .options p {
   font-size: 10px;
   padding-bottom: 8px;
 }
