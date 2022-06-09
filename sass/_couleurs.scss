@@ -70,21 +70,25 @@ body{
     }
     .menu{
         background-color: rgb(246,246,246);
-        .services{
+        ul{
             list-style: none;
-            h3{
-            border-bottom: solid $tertiaire;
-            }
-        }   
-        .options{
-                list-style: none;
-                background-color: white;
-                .coche i{
-                    display: none;
-                    &:hover{color: $tertiaire;
+            .services{
+                h3{
+                border-bottom: solid $tertiaire;
+                }
+                .options{
+                    background-color: white;
+                        .coche i{
+                            display: none;
+                            &:hover{
+                                color: $tertiaire;
+                        }
+                    }
                 }
             }
+
         }
+
     }
     .menu button{
         background: linear-gradient($secondaire, $primaire);

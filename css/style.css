@@ -108,24 +108,23 @@ body .menu {
   background-color: #f6f6f6;
 }
 
-body .menu .services {
+body .menu ul {
   list-style: none;
 }
 
-body .menu .services h3 {
+body .menu ul .services h3 {
   border-bottom: solid #99E2D0;
 }
 
-body .menu .options {
-  list-style: none;
+body .menu ul .services .options {
   background-color: white;
 }
 
-body .menu .options .coche i {
+body .menu ul .services .options .coche i {
   display: none;
 }
 
-body .menu .options .coche i:hover {
+body .menu ul .services .options .coche i:hover {
   color: #99E2D0;
 }
 
@@ -413,6 +412,7 @@ body .menu .nom_menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 body .menu .nom_menu i {
@@ -422,31 +422,45 @@ body .menu .nom_menu i {
       align-self: center;
 }
 
-body .menu .services {
-  font-variant: small-caps;
+body .menu ul li {
   font-size: 16px;
   width: 90%;
   padding-bottom: 8px;
 }
 
-body .menu .services h3 {
+body .menu ul li h3 {
+  font-variant: small-caps;
   width: 36px;
   border-bottom-width: 3px;
   padding-bottom: 6px;
 }
 
-body .menu .services .options {
+body .menu ul li li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 350px;
   height: 70px;
   border-radius: 10px;
+  margin: 10px;
 }
 
-body .menu .services .options h4 {
+body .menu ul li li h4 {
   font-size: 14px;
 }
 
-body .menu .services .options p {
+body .menu ul li li p {
   font-size: 10px;
   padding-bottom: 8px;
+}
+
+body .menu ul li li strong {
+  font-size: 14px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 body .menu .bouton {

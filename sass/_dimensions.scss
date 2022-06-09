@@ -158,30 +158,40 @@ body{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            margin-bottom: 20px;
             i{
                 font-size: 20px;
                 align-self: center;
             }
         }
-        .services{
-            font-variant: small-caps;
+        ul li{
+            
             font-size: 16px;
             width: 90%;
             padding-bottom: 8px;
             h3{
+                font-variant: small-caps;
                 width: 36px;
                 border-bottom-width: 3px;
                 padding-bottom: 6px;
             }
-            .options{
+            li{
+            display: flex;
+            justify-content: space-between;
+            width: 350px;
             height: 70px;
             border-radius: 10px;
+            margin:10px;
                 h4{
                     font-size: 14px;
                 }
                 p{
                     font-size: 10px;
                     padding-bottom: 8px;
+                }
+                strong{
+                    font-size: 14px;
+                    align-self: flex-end;
                 }
             }
         }
