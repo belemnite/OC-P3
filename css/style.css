@@ -299,8 +299,9 @@ body .reservation .bouton {
 }
 
 body .fonctionnement {
-  height: 444px;
   padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 64px;
 }
 
 body .fonctionnement ol {
