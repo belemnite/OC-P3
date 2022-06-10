@@ -61,10 +61,12 @@ body{
         }
         .card{
             span{
-            z-index: 2;
+            z-index: 1;
             color: darken($tertiaire,$amount: 20%);
-            
             background: lighten($tertiaire, $amount: 20%);
+            }
+            .card-body{
+                background-color: white;
             }
             i:hover{
                 color: linear-gradient($secondaire, $primaire);
@@ -90,7 +92,6 @@ body{
                     }
                 }
             }
-
         }
 
     }
