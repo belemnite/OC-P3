@@ -76,8 +76,9 @@ body{
                 h3{
                 border-bottom: solid $tertiaire;
                 }
-                .options{
+                li{
                     background-color: white;
+                    box-shadow:rgb(208, 208, 208);
                         .coche i{
                             display: none;
                             &:hover{

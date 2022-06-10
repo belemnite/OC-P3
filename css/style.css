@@ -116,15 +116,17 @@ body .menu ul .services h3 {
   border-bottom: solid #99E2D0;
 }
 
-body .menu ul .services .options {
+body .menu ul .services li {
   background-color: white;
+  -webkit-box-shadow: #d0d0d0;
+          box-shadow: #d0d0d0;
 }
 
-body .menu ul .services .options .coche i {
+body .menu ul .services li .coche i {
   display: none;
 }
 
-body .menu ul .services .options .coche i:hover {
+body .menu ul .services li .coche i:hover {
   color: #99E2D0;
 }
 
@@ -425,7 +427,6 @@ body .menu .nom_menu i {
 body .menu ul li {
   font-size: 16px;
   width: 90%;
-  padding-bottom: 8px;
 }
 
 body .menu ul li h3 {
@@ -442,19 +443,23 @@ body .menu ul li li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
   height: 70px;
   border-radius: 10px;
   margin: 10px;
+  padding-left: 8px;
 }
 
 body .menu ul li li h4 {
   font-size: 14px;
+  padding-bottom: 8px;
 }
 
 body .menu ul li li p {
   font-size: 10px;
-  padding-bottom: 8px;
 }
 
 body .menu ul li li strong {
