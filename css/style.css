@@ -143,7 +143,7 @@ body footer {
   background-color: #353535;
 }
 
-body footer .logo, body footer ul li, body footer i {
+body footer .logo, body footer ul li div, body footer i {
   color: white;
 }
 
@@ -497,16 +497,23 @@ body footer .logo ul {
           justify-content: flex-start;
 }
 
-body footer .logo ul i {
-  width: 15px;
-  padding-right: 10px;
+body footer .logo ul li {
+  margin-bottom: 16px;
 }
 
-body footer .logo ul li {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-bottom: 16px;
+body footer .logo ul li div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .logo ul li i {
+  width: 15px;
+  margin-right: 10px;
 }
 
 /* making loader animation */

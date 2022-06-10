@@ -215,13 +215,18 @@ body{
             padding: 24px 0px 28px;
                 ul {
                 justify-content: flex-start;
-                    i{
-                        width: 15px;
-                        padding-right: 10px;
-                    }
                     li{
-                        justify-content: flex-start;
                         margin-bottom: 16px;
+                        div{
+                            flex-direction: row;
+                            justify-content: space-between;
+                        } 
+                        
+                        
+                        i{
+                            width: 15px;
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
