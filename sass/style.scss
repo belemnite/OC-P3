@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+img, picture{
+    display: block;
+    max-width: 100%;
+}
+
 @import "./typographie";
 @import "./couleurs";
 @import "./dimensions";
