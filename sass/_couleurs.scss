@@ -99,12 +99,13 @@ body{
     }
     footer{
         background-color:rgb(53,53,53);
-        .logo, ul li div, i{
+        .logo, ul li div p,a, i{
             color: white;
         }
         
         ul li{
             list-style: none;
+            
         }
     }
 }
