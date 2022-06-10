@@ -93,10 +93,13 @@ body .restaurants {
   background: #f2f2f2;
 }
 
+body .restaurants a {
+  text-decoration: none;
+}
+
 body .restaurants .card span {
   z-index: 2;
   color: #4acbab;
-  text-decoration: none;
   background: #e8f9f5;
 }
 
@@ -149,6 +152,10 @@ body footer .logo, body footer ul li div p, body footer a, body footer i {
 
 body footer ul li {
   list-style: none;
+}
+
+body footer ul li a {
+  text-decoration: none;
 }
 
 body {

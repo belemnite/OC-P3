@@ -56,11 +56,14 @@ body{
     
     .restaurants{
         background: lighten($color: $noir, $amount: 95%);
+        a{
+            text-decoration: none;
+        }
         .card{
             span{
             z-index: 2;
             color: darken($tertiaire,$amount: 20%);
-            text-decoration: none;
+            
             background: lighten($tertiaire, $amount: 20%);
             }
             i:hover{
@@ -105,7 +108,9 @@ body{
         
         ul li{
             list-style: none;
-            
+            a{
+                text-decoration: none;
+            }
         }
     }
 }
