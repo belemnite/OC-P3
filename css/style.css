@@ -220,8 +220,14 @@ body .recherche {
   height: 50px;
 }
 
+body .recherche i {
+  padding-right: 4px;
+}
+
 body .recherche input {
-  font-size: 12px;
+  font-size: 14px;
+  width: 120px;
+  height: auto;
 }
 
 body .recherche input ::-webkit-input-placeholder {
