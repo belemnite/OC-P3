@@ -187,7 +187,10 @@ body{
 
     .photo{
         height: 256px;
+        overflow: hidden;
+        z-index: -1;
     }
+
     .menu{
         display: flex;
         flex-direction: column;
@@ -197,6 +200,7 @@ body{
         border-top-right-radius: 32px;
         padding: 32px;
         overflow: visible;
+        z-index: 2;
         .nom_menu{
             display: flex;
             flex-direction: row;

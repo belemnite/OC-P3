@@ -451,6 +451,8 @@ body .restaurants .cards .card .card-body .card-exerpt {
 
 body .photo {
   height: 256px;
+  overflow: hidden;
+  z-index: -1;
 }
 
 body .menu {
@@ -469,6 +471,7 @@ body .menu {
   border-top-right-radius: 32px;
   padding: 32px;
   overflow: visible;
+  z-index: 2;
 }
 
 body .menu .nom_menu {
