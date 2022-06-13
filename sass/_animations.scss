@@ -1,9 +1,18 @@
 //. travail en cours.//
 .options .coche{
+    display: grid;
+    place-content: center;
+    height: 70px;
     width: 0px;
     transition: width 0.5s ease-in-out;
-    & :hover{
+    background: $tertiaire;
+    color: white;
+    &:hover{
+        height: 70px;
         width: 50px;
+        &i{
+            transform: rotate(360deg);
+        }
     }
     i{
         transform: rotate(180deg);
@@ -15,9 +24,6 @@
         display: block;
         width: 50px;
         font-size: 14px;
-        background: $tertiaire;
-        color: white;
-
     }
 }
 

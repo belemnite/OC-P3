@@ -608,13 +608,25 @@ body footer .logo ul li i {
 }
 
 .options .coche {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 70px;
   width: 0px;
   -webkit-transition: width 0.5s ease-in-out;
   transition: width 0.5s ease-in-out;
+  background: #99E2D0;
+  color: white;
 }
 
-.options .coche :hover {
+.options .coche:hover {
+  height: 70px;
   width: 50px;
+}
+
+.options .coche:hoveri {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .options .coche i {
@@ -632,8 +644,6 @@ body footer .logo ul li i {
   display: block;
   width: 50px;
   font-size: 14px;
-  background: #99E2D0;
-  color: white;
 }
 
 #loader {
