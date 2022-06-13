@@ -2,8 +2,13 @@
 .options .coche{
     width: 0px;
     transition: width 0.5s ease-in-out;
+    & :hover{
+        width: 50px;
+    }
     i{
-        display: none;
+        transform: rotate(180deg);
+        transition: transform 0.5s ease-in-out;
+        transition-delay: 0.3s;
     }
     
     & i:hover{
@@ -12,6 +17,7 @@
         font-size: 14px;
         background: $tertiaire;
         color: white;
+
     }
 }
 

@@ -500,9 +500,20 @@ body .menu .nom_menu i {
       align-self: center;
 }
 
+body .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body .menu ul li {
   font-size: 16px;
-  width: 90%;
+  width: 350px;
 }
 
 body .menu ul li h3 {
@@ -602,8 +613,19 @@ body footer .logo ul li i {
   transition: width 0.5s ease-in-out;
 }
 
+.options .coche :hover {
+  width: 50px;
+}
+
 .options .coche i {
-  display: none;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
 }
 
 .options .coche i:hover {
