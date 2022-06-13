@@ -235,7 +235,9 @@ body{
                 }
                 p{
                     font-size: 10px;
-                    
+                    white-space: no-wrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
                 strong{
                     font-size: 14px;

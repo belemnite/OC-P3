@@ -1,13 +1,18 @@
 //. travail en cours.//
-.coche ::before{
+.options .coche{
     width: 0px;
-    ::after{
+    transition: width 0.5s ease-in-out;
+    i{
+        display: none;
+    }
+    
+    & i:hover{
         display: block;
         width: 50px;
         font-size: 14px;
-        background-color: $tertiaire;
+        background: $tertiaire;
         color: white;
-}
+    }
 }
 
 #loader {

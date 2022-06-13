@@ -23,6 +23,11 @@ body .logo {
   color: #000;
 }
 
+body .card-body i:hover, body .nom_menu i:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(#9356DC, #FF79DA);
+}
+
 body .recherche {
   border-top-color: gray;
   background-color: #cccccc;
@@ -531,6 +536,9 @@ body .menu ul li li h4 {
 
 body .menu ul li li p {
   font-size: 10px;
+  white-space: no-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 body .menu ul li li strong {
@@ -588,15 +596,21 @@ body footer .logo ul li i {
   margin-right: 10px;
 }
 
-.coche ::before {
+.options .coche {
   width: 0px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
 }
 
-.coche ::before ::after {
+.options .coche i {
+  display: none;
+}
+
+.options .coche i:hover {
   display: block;
   width: 50px;
   font-size: 14px;
-  background-color: #99E2D0;
+  background: #99E2D0;
   color: white;
 }
 
