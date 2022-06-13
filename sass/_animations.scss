@@ -1,4 +1,15 @@
-/* making loader animation */
+//. travail en cours.//
+.coche ::before{
+    width: 0px;
+    ::after{
+        display: block;
+        width: 50px;
+        font-size: 14px;
+        background-color: $tertiaire;
+        color: white;
+}
+}
+
 #loader {
     position: absolute;
     top: 0;

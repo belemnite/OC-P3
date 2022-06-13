@@ -27,7 +27,7 @@ body{
             background: linear-gradient($secondaire, $primaire);
             color: lighten($color: $noir, $amount: 100%);
             border-style: none;
-            box-shadow: rgb(208, 208, 208);
+            box-shadow: 0px 0px 10px rgb(202, 202, 202);
             
         }
     }
@@ -60,6 +60,7 @@ body{
             text-decoration: none;
         }
         .card{
+            box-shadow: 0px 0px 10px rgb(231, 231, 231);
             span{
             z-index: 1;
             color: darken($tertiaire,$amount: 20%);
@@ -83,13 +84,7 @@ body{
                 }
                 li{
                     background-color: white;
-                    box-shadow:rgb(208, 208, 208);
-                        .coche i{
-                            display: none;
-                            &:hover{
-                                color: $tertiaire;
-                        }
-                    }
+                    box-shadow:0px 0px 5px rgb(208, 208, 208);
                 }
             }
         }
@@ -99,7 +94,7 @@ body{
         background: linear-gradient($secondaire, $primaire);
         color: lighten($color: $noir, $amount: 100%);
         border-style: none;
-        box-shadow: rgb(208, 208, 208);
+        box-shadow:0px 0px 10px rgb(208, 208, 208);
     }
     footer{
         background-color:rgb(53,53,53);

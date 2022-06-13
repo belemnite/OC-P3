@@ -62,8 +62,8 @@ body .reservation button {
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-style: none;
-  -webkit-box-shadow: #d0d0d0;
-          box-shadow: #d0d0d0;
+  -webkit-box-shadow: 0px 0px 10px #cacaca;
+          box-shadow: 0px 0px 10px #cacaca;
 }
 
 body .fonctionnement {
@@ -102,6 +102,11 @@ body .restaurants a {
   text-decoration: none;
 }
 
+body .restaurants .card {
+  -webkit-box-shadow: 0px 0px 10px #e7e7e7;
+          box-shadow: 0px 0px 10px #e7e7e7;
+}
+
 body .restaurants .card span {
   z-index: 1;
   color: #4acbab;
@@ -130,16 +135,8 @@ body .menu ul .services h3 {
 
 body .menu ul .services li {
   background-color: white;
-  -webkit-box-shadow: #d0d0d0;
-          box-shadow: #d0d0d0;
-}
-
-body .menu ul .services li .coche i {
-  display: none;
-}
-
-body .menu ul .services li .coche i:hover {
-  color: #99E2D0;
+  -webkit-box-shadow: 0px 0px 5px #d0d0d0;
+          box-shadow: 0px 0px 5px #d0d0d0;
 }
 
 body .menu button {
@@ -147,8 +144,8 @@ body .menu button {
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-style: none;
-  -webkit-box-shadow: #d0d0d0;
-          box-shadow: #d0d0d0;
+  -webkit-box-shadow: 0px 0px 10px #d0d0d0;
+          box-shadow: 0px 0px 10px #d0d0d0;
 }
 
 body footer {
@@ -186,27 +183,30 @@ body {
 
 body header {
   height: 64px;
-}
-
-body header .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: row wrap;
+      flex-wrap: row wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-body header .navigation h1 {
+body header h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 24px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
-body header .navigation i {
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+body header a {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 16px;
 }
 
 body .recherche {
@@ -535,8 +535,9 @@ body .menu ul li li p {
 
 body .menu ul li li strong {
   font-size: 14px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
 }
 
 body .menu .bouton {
@@ -587,7 +588,18 @@ body footer .logo ul li i {
   margin-right: 10px;
 }
 
-/* making loader animation */
+.coche ::before {
+  width: 0px;
+}
+
+.coche ::before ::after {
+  display: block;
+  width: 50px;
+  font-size: 14px;
+  background-color: #99E2D0;
+  color: white;
+}
+
 #loader {
   position: absolute;
   top: 0;
