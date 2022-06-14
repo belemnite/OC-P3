@@ -240,7 +240,7 @@ body{
                 }
                 p{
                     font-size: 10px;
-                    white-space: no-wrap;
+                    white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
@@ -270,12 +270,13 @@ body{
                     li{
                         margin-bottom: 16px;
                         div{
-                            flex-direction: row;
-                            justify-content: space-between;
-                        } 
-                        i{
-                            width: 15px;
-                            margin-right: 10px;
+                            .proposition, .partenariat{
+                                left: 20px;
+                            }
+                            i{
+                                width: 15px;
+                                margin-right: 10px;
+                            }
                         }
                     }
                 }

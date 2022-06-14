@@ -157,7 +157,7 @@ body footer {
   background-color: #353535;
 }
 
-body footer .logo, body footer ul li div p, body footer a, body footer i {
+body footer .logo, body footer ul li div, body footer a, body footer i {
   color: white;
 }
 
@@ -547,7 +547,7 @@ body .menu ul li li h4 {
 
 body .menu ul li li p {
   font-size: 10px;
-  white-space: no-wrap;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -592,22 +592,16 @@ body footer .logo ul li {
   margin-bottom: 16px;
 }
 
-body footer .logo ul li div {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+body footer .logo ul li div .proposition, body footer .logo ul li div .partenariat {
+  left: 20px;
 }
 
-body footer .logo ul li i {
+body footer .logo ul li div i {
   width: 15px;
   margin-right: 10px;
 }
 
-.options .coche {
+.option .coche {
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -619,17 +613,11 @@ body footer .logo ul li i {
   color: white;
 }
 
-.options .coche:hover {
-  height: 70px;
+.option .coche:hover {
   width: 50px;
 }
 
-.options .coche:hoveri {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.options .coche i {
+.option .coche i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
@@ -640,10 +628,31 @@ body footer .logo ul li i {
           transition-delay: 0.3s;
 }
 
-.options .coche i:hover {
-  display: block;
+.option .coche i:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: white;
+}
+
+.far.fa-heart::before {
+  background: white;
+}
+
+.far.fa-heart::after {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+
+.options .coche {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 70px;
   width: 50px;
-  font-size: 14px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  background: #99E2D0;
+  color: white;
 }
 
 #loader {
