@@ -634,28 +634,11 @@ body footer .logo ul li div i {
   color: white;
 }
 
-.far.fa-heart::before {
-  background: white;
+.far.fa-heart:hover {
+  color: linear-gradient(#FF79DA, #9356DC);
 }
 
-.far.fa-heart::after {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background: linear-gradient(#FF79DA, #9356DC);
-}
-
-.options .coche {
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
-  height: 70px;
-  width: 50px;
-  -webkit-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
-  background: #99E2D0;
-  color: white;
-}
-
-#loader {
+#chargement {
   position: absolute;
   top: 0;
   left: 0;
@@ -675,7 +658,7 @@ body footer .logo ul li div i {
           animation-fill-mode: forwards;
 }
 
-.circle {
+.cercle {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -742,5 +725,9 @@ body footer .logo ul li div i {
     height: 0;
     z-index: -1;
   }
+}
+
+.far.fa-heart::after {
+  color: linear-gradient(#FF79DA, #9356DC);
 }
 /*# sourceMappingURL=style.css.map */
