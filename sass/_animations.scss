@@ -2,6 +2,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  right:0;
+  bottom:0;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -82,12 +84,31 @@
     width: 30px;
     height: 30px;
     position: relative;
+    &:hover {
+        .fa-square-full{
+            height:0;
+        }
+    }
     i{
         position: absolute;
         top: 0;
         left: 0;
         width: 30px;
         height: 30px;
+    }
+    .fas{
+        color: $primaire;
+        // background-image: linear-gradient($primaire, $secondaire);
+
+    }
+    .far{
+        z-index: 3;
+    }
+    .fa-square-full{
+        z-index: 2;
+        color: #fff;
+        transition: height 1s ease-in-out;
+        overflow:hidden
     }
 }
 

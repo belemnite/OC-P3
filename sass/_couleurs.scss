@@ -6,11 +6,7 @@ $noir: #000;
     color: $noir;
 }
 body{
-    .card-body i, .nom_menu i{
-        &:hover{
-            background: linear-gradient($primaire, $secondaire);
-        }
-    }
+
     .recherche{
         border-top-color: lighten($color: $noir, $amount: 50%);
         background-color: lighten($color: $noir, $amount: 80%);
@@ -73,9 +69,6 @@ body{
             }
             .card-body{
                 background-color: white;
-            }
-            i:hover{
-                color: linear-gradient($secondaire, $primaire);
             }
         } 
     }
