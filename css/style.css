@@ -601,43 +601,6 @@ body footer .logo ul li div i {
   margin-right: 10px;
 }
 
-.option .coche {
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
-  height: 70px;
-  width: 0px;
-  -webkit-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
-  background: #99E2D0;
-  color: white;
-}
-
-.option .coche:hover {
-  width: 50px;
-}
-
-.option .coche i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
-  -webkit-transition-delay: 0.3s;
-          transition-delay: 0.3s;
-}
-
-.option .coche i:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  color: white;
-}
-
-.far.fa-heart:hover {
-  color: linear-gradient(#FF79DA, #9356DC);
-}
-
 #chargement {
   position: absolute;
   top: 0;
@@ -658,7 +621,7 @@ body footer .logo ul li div i {
           animation-fill-mode: forwards;
 }
 
-.cercle {
+#chargement .cercle {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -727,7 +690,78 @@ body footer .logo ul li div i {
   }
 }
 
-.far.fa-heart::after {
+.option .coche {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 70px;
+  width: 0px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  background: #99E2D0;
+  color: white;
+}
+
+.option .coche:hover {
+  width: 50px;
+}
+
+.option .coche i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.option .coche i:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: white;
+}
+
+.fas.fa-heart:hover {
   color: linear-gradient(#FF79DA, #9356DC);
+}
+
+.menu {
+  -webkit-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+}
+
+.menu .services {
+  -webkit-transform: translate(14px);
+          transform: translate(14px);
+  -webkit-animation: apparaitre 0.5s ease-in-out;
+          animation: apparaitre 0.5s ease-in-out;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes apparaitre {
+  0% {
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    opacity: 1;
+    z-index: 2;
+  }
+}
+
+@keyframes apparaitre {
+  0% {
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    opacity: 1;
+    z-index: 2;
+  }
 }
 /*# sourceMappingURL=style.css.map */
