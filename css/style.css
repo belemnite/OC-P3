@@ -556,6 +556,10 @@ body footer .logo ul li div i {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
+.menu .apparaitre4 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
 @-webkit-keyframes apparaitre {
   0% {
     transform: translateY(30px);
