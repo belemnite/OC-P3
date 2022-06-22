@@ -20,7 +20,7 @@
   animation-fill-mode: forwards;
   h2{
     margin: auto;
-    font-size: 32px;
+    font-size: 200%;
     border-bottom: 3px solid $tertiaire;
   }
   .cercle {
@@ -34,7 +34,9 @@
     animation: rotation 1s ease-in-out infinite;
   }
   p{
+    width: 75%;
     margin: auto;
+    font-size: 150%;
   }
 }
 

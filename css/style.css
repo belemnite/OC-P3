@@ -425,7 +425,7 @@ body footer .logo ul li div i {
 }
 #chargement h2 {
   margin: auto;
-  font-size: 32px;
+  font-size: 200%;
   border-bottom: 3px solid #99E2D0;
 }
 #chargement .cercle {
@@ -440,7 +440,9 @@ body footer .logo ul li div i {
           animation: rotation 1s ease-in-out infinite;
 }
 #chargement p {
+  width: 75%;
   margin: auto;
+  font-size: 150%;
 }
 
 @-webkit-keyframes rotation {
