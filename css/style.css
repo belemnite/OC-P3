@@ -400,7 +400,8 @@ body footer .logo ul li div i {
 }
 
 #chargement {
-  position: absolute;
+  position: fixed;
+  margin: auto;
   top: 0;
   left: 0;
   right: 0;
@@ -410,8 +411,11 @@ body footer .logo ul li div i {
   background-color: #fff;
   overflow: hidden;
   z-index: 2;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   -webkit-animation: disparaitre 1s;
           animation: disparaitre 1s;
   -webkit-animation-delay: 2s;
@@ -419,7 +423,13 @@ body footer .logo ul li div i {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
+#chargement h2 {
+  margin: auto;
+  font-size: 32px;
+  border-bottom: 3px solid #99E2D0;
+}
 #chargement .cercle {
+  margin: auto;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -428,6 +438,9 @@ body footer .logo ul li div i {
   border-left: 5px solid #9356DC;
   -webkit-animation: rotation 1s ease-in-out infinite;
           animation: rotation 1s ease-in-out infinite;
+}
+#chargement p {
+  margin: auto;
 }
 
 @-webkit-keyframes rotation {
