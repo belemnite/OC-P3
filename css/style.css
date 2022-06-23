@@ -316,7 +316,7 @@ body .menu {
   width: 100%;
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
-  padding: 32px;
+  padding: 32px 8px;
   overflow: visible;
   z-index: 2;
 }
@@ -325,6 +325,7 @@ body .menu .nom_menu {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding-right: 32px;
 }
 body .menu .nom_menu i {
   font-size: 20px;
@@ -356,18 +357,19 @@ body .menu ul li li {
   padding-left: 8px;
 }
 body .menu ul li li h4 {
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 8px;
 }
 body .menu ul li li p {
-  font-size: 10px;
+  font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-body .menu ul li li strong {
-  font-size: 14px;
-  align-self: right;
+body .menu ul li li .prix {
+  font-size: 16px;
+  align-content: flex-end;
+  padding-right: 20px;
 }
 body .menu .bouton {
   width: 188px;
@@ -495,6 +497,12 @@ body footer .logo ul li div i {
     height: 0;
     z-index: -1;
   }
+}
+.option .description {
+  width: 100%;
+}
+.option .description:hover {
+  width: 288px;
 }
 .option .coche {
   display: grid;

@@ -70,6 +70,12 @@
 }
 
 .option {
+  .description{
+    width: 100%;
+    &:hover{
+    width: 288px;
+    }
+    }
   .coche {
     display: grid;
     place-content: center;
@@ -94,6 +100,7 @@
     width: 50px;
     
   }
+
 }
 .favoris{
     width: 30px;

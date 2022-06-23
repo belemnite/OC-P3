@@ -196,7 +196,7 @@ body{
         width: 100%;
         border-top-left-radius: 32px;
         border-top-right-radius: 32px;
-        padding: 32px;
+        padding: 32px 8px;
         overflow: visible;
         z-index: 2;
         .nom_menu{
@@ -204,6 +204,7 @@ body{
             flex-direction: row;
             justify-content: space-between;
             margin-bottom: 20px;
+            padding-right: 32px;
             i{
                 font-size: 20px;
                 align-self: center;
@@ -235,19 +236,21 @@ body{
             margin:10px;
             padding-left: 8px;
                 h4{
-                    font-size: 14px;
+                    font-size: 16px;
                     padding-bottom: 8px;
                 }
                 p{
-                    font-size: 10px;
+                    font-size: 14px;
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
-                strong{
-                    font-size: 14px;
-                    align-self: right;
+                .prix{
+                    font-size: 16px;
+                    align-content: flex-end;
+                    padding-right: 20px;
                 }
+                
             }
         }
         .bouton{
