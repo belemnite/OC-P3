@@ -385,24 +385,19 @@ body footer {
   height: 200px;
   justify-content: flex-start;
   padding-left: 20px;
-  font-size: 12px;
+  font-size: 90%;
 }
 body footer .logo {
   padding: 24px 0px 28px;
 }
-body footer .logo ul {
+body footer ul {
   justify-content: flex-start;
 }
-body footer .logo ul li {
+body footer ul li {
   margin-bottom: 16px;
 }
-body footer .logo ul li div .proposition, body footer .logo ul li div .partenariat {
-  position: absolute;
-  left: 20px;
-}
-body footer .logo ul li div i {
-  width: 40px;
-  padding-right: 10px;
+body footer ul li i {
+  width: 25px;
 }
 
 #chargement {

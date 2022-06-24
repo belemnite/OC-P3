@@ -269,26 +269,25 @@ body{
         height: 200px;
         justify-content: flex-start;
         padding-left: 20px;
-        font-size: 12px;
+        font-size: 90%;
         .logo{
             padding: 24px 0px 28px;
-                ul {
+
+            }
+            ul {
                 justify-content: flex-start;
                     li{
                         margin-bottom: 16px;
-                        div{
+                        
                             .proposition, .partenariat{
-                                position: absolute;
-                                left: 20px;
+
                             }
                             i{
-                                width: 40px;
-                                padding-right: 10px;
+                                width: 25px;
                             }
-                        }
+                        
                     }
                 }
-            }
     }
 }
 
