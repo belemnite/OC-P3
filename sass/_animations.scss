@@ -106,26 +106,30 @@
     width: 30px;
     height: 30px;
     position: relative;
+    overflow: hidden;
     &:hover {
         .fa-square-full{
-            height:0;
+            top:-20px;
         }
     }
     i{
         position: absolute;
         top: 0;
         left: 0;
-        width: 14px;
-        height: 14px;
     }
-    .fas{
-        color: $secondaire;
-        // background-image: linear-gradient($primaire, $secondaire);
-        //text-shadow: $secondaire 0px 0px 7px;
+    .fas.fa-heart{
+      color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient($primaire, $secondaire)
+    }
+    .far.fa-heart{
+      z-index: 10;
     }
     .fa-square-full{
-        color: $primaire;
-        transition: height 1s ease-in-out;
+      z-index: 2;
+        color: white;
+        transition: top 1s ease-in-out;
         overflow:hidden
     }
 }
