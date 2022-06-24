@@ -70,12 +70,14 @@
 }
 
 .option {
+  overflow: hidden;
   .description{
-    width: 100%;
-    &:hover{
-    width: 288px;
+    width: 300px;
+
     }
-    }
+    &:hover .description{
+      width: 220px;
+      }
   .coche {
     display: grid;
     place-content: center;
@@ -130,10 +132,13 @@
       z-index: 2;
         color: white;
         transition: top 1s ease-in-out;
-        overflow:hidden
+        overflow:hidden;
+        
     }
 }
-
+.menu .favoris .fa-square-full{
+  color: rgb(246, 246, 246)
+}
 
 
 .menu {

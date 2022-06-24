@@ -353,7 +353,7 @@ body .menu ul li li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 350px;
   height: 70px;
   border-radius: 10px;
   margin: 10px;
@@ -497,11 +497,14 @@ body footer ul li i {
     z-index: -1;
   }
 }
-.option .description {
-  width: 100%;
+.option {
+  overflow: hidden;
 }
-.option .description:hover {
-  width: 288px;
+.option .description {
+  width: 300px;
+}
+.option:hover .description {
+  width: 220px;
 }
 .option .coche {
   display: grid;
@@ -554,6 +557,10 @@ body footer ul li i {
   color: white;
   transition: top 1s ease-in-out;
   overflow: hidden;
+}
+
+.menu .favoris .fa-square-full {
+  color: rgb(246, 246, 246);
 }
 
 .menu {
