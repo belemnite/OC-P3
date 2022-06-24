@@ -135,11 +135,14 @@ body header {
   align-content: center;
 }
 body header h1 {
+  align-self: center;
   justify-content: center;
   font-size: 24px;
 }
-body header a {
-  justify-content: left;
+body header .retour {
+  align-self: center;
+  position: absolute;
+  left: 30px;
   font-size: 16px;
 }
 body .recherche {
@@ -539,18 +542,14 @@ body footer .logo ul li div i {
   position: absolute;
   top: 0;
   left: 0;
-  width: 30px;
-  height: 30px;
+  width: 14px;
+  height: 14px;
 }
 .favoris .fas {
-  color: #9356DC;
-}
-.favoris .far {
-  z-index: 3;
+  color: #FF79DA;
 }
 .favoris .fa-square-full {
-  z-index: 2;
-  color: #fff;
+  color: #9356DC;
   transition: height 1s ease-in-out;
   overflow: hidden;
 }

@@ -115,21 +115,16 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 30px;
-        height: 30px;
+        width: 14px;
+        height: 14px;
     }
     .fas{
-        color: $primaire;
+        color: $secondaire;
         // background-image: linear-gradient($primaire, $secondaire);
         //text-shadow: $secondaire 0px 0px 7px;
-
-    }
-    .far{
-        z-index: 3;
     }
     .fa-square-full{
-        z-index: 2;
-        color: #fff;
+        color: $primaire;
         transition: height 1s ease-in-out;
         overflow:hidden
     }
