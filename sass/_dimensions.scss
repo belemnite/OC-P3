@@ -188,9 +188,11 @@ body{
         }
 
     .photo{
-        height: 256px;
-        overflow: hidden;
-        z-index: -1;
+    max-height: 256px;
+        img{
+            object-fit: scale-down;
+            overflow: hidden;
+        }
     }
 
     .menu{

@@ -308,9 +308,12 @@ body .restaurants .cards .card .card-body .card-exerpt {
   font-size: 14px;
 }
 body .photo {
-  height: 256px;
+  max-height: 256px;
+}
+body .photo img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
   overflow: hidden;
-  z-index: -1;
 }
 body .menu {
   display: flex;
