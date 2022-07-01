@@ -29,7 +29,10 @@ body{
             color: lighten($color: $noir, $amount: 100%);
             border-style: none;
             box-shadow: 0px 0px 10px rgb(202, 202, 202);
-            
+            &:hover{
+                background: lighten(linear-gradient($secondaire, $primaire), $amount: 20%);
+                box-shadow: darken($amount: 10%);
+            }
         }
     }
     .fonctionnement{

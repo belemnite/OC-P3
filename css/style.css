@@ -523,6 +523,7 @@ body footer ul li i {
   transform: rotate(180deg);
   transition: transform 0.5s ease-in-out;
   transition-delay: 0.3s;
+  color: white;
 }
 .option .coche i:hover {
   transform: rotate(360deg);
@@ -579,8 +580,8 @@ body footer ul li i {
   opacity: 0;
 }
 .menu .apparaitre1 {
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 .menu .apparaitre2 {
   -webkit-animation-delay: 0.5s;
