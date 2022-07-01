@@ -28,10 +28,11 @@ body{
             background: linear-gradient($secondaire, $primaire);
             color: lighten($color: $noir, $amount: 100%);
             border-style: none;
-            box-shadow: 0px 0px 10px rgb(202, 202, 202);
+            box-shadow: 0px 0px 10px rgb(208, 208, 208);
+            transition:all 0.5s ease-in-out;
             &:hover{
-                background: lighten(linear-gradient($secondaire, $primaire), $amount: 20%);
-                box-shadow: darken($amount: 10%);
+                background: linear-gradient(lighten($secondaire,$amount: 5%), lighten($primaire ,$amount: 5%) );
+                box-shadow: 10px 10px 20px 0px rgba(150,150,150,0.75);
             }
         }
     }
@@ -39,7 +40,7 @@ body{
         background-color: lighten($color: $noir, $amount: 100%);
         ol li{
             background-color: lighten($color: $noir, $amount: 95%);
-            list-style: circle 12px $primaire;
+            list-style: circle  $primaire;
             transition: all 0.2s ease-in-out;
             .nombre{
                 background-color: $primaire;
@@ -96,6 +97,11 @@ body{
         color: lighten($color: $noir, $amount: 100%);
         border-style: none;
         box-shadow:0px 0px 10px rgb(208, 208, 208);
+        transition:all 0.5s ease-in-out;
+        &:hover{
+            background: linear-gradient(lighten($secondaire,$amount: 5%), lighten($primaire ,$amount: 5%) );
+            box-shadow: 10px 10px 20px 0px rgba(150,150,150,0.75);
+        }
     }
     footer{
         background-color:rgb(53,53,53);

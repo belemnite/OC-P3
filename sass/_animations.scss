@@ -88,13 +88,12 @@
     color: white;
     overflow: hidden;
     i {
-      transform: rotate(180deg);
+      transform: rotate(0deg);
       transition: transform 0.5s ease-in-out;
       transition-delay: 0.3s;
-      color: $tertiaire;
+      color: white;
       &:hover {
         transform: rotate(360deg);
-        color: $tertiaire;
       }
     }
   }

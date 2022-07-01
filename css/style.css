@@ -48,14 +48,19 @@ body .reservation button {
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-style: none;
-  box-shadow: 0px 0px 10px rgb(202, 202, 202);
+  box-shadow: 0px 0px 10px rgb(208, 208, 208);
+  transition: all 0.5s ease-in-out;
+}
+body .reservation button:hover {
+  background: linear-gradient(#ff93e1, #a16be0);
+  box-shadow: 10px 10px 20px 0px rgba(150, 150, 150, 0.75);
 }
 body .fonctionnement {
   background-color: white;
 }
 body .fonctionnement ol li {
   background-color: #f2f2f2;
-  list-style: circle 12px #9356DC;
+  list-style: circle #9356DC;
   transition: all 0.2s ease-in-out;
 }
 body .fonctionnement ol li .nombre {
@@ -106,6 +111,11 @@ body .menu button {
   color: white;
   border-style: none;
   box-shadow: 0px 0px 10px rgb(208, 208, 208);
+  transition: all 0.5s ease-in-out;
+}
+body .menu button:hover {
+  background: linear-gradient(#ff93e1, #a16be0);
+  box-shadow: 10px 10px 20px 0px rgba(150, 150, 150, 0.75);
 }
 body footer {
   background-color: rgb(53, 53, 53);
@@ -197,7 +207,7 @@ body .reservation .bouton {
   align-content: center;
   align-items: center;
   border-radius: 25px;
-  box-shadow: 10px;
+  box-shadow: 10px 10px 20px 0px rgba(207, 207, 207, 0.75);
   font-weight: bold;
   align-self: center;
 }
@@ -230,6 +240,7 @@ body .fonctionnement ol li .nombre {
   height: 25px;
   border-radius: 50%;
   margin-left: -11px;
+  font-size: 12px;
 }
 body .fonctionnement ol li i {
   margin-inline: 25px;
@@ -520,14 +531,13 @@ body footer ul li i {
   overflow: hidden;
 }
 .option .coche i {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
   transition: transform 0.5s ease-in-out;
   transition-delay: 0.3s;
   color: white;
 }
 .option .coche i:hover {
   transform: rotate(360deg);
-  color: white;
 }
 .option:hover .coche {
   width: 50px;
