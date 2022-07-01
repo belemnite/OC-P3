@@ -60,7 +60,6 @@ body .fonctionnement {
 }
 body .fonctionnement ol li {
   background-color: #f2f2f2;
-  list-style: circle #9356DC;
   transition: all 0.2s ease-in-out;
 }
 body .fonctionnement ol li .nombre {
@@ -140,7 +139,8 @@ body {
 body header {
   height: 64px;
   display: flex;
-  flex-wrap: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
 }
